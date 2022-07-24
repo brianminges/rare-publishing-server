@@ -1,0 +1,67 @@
+[
+    {
+        "model": "rareapi.post",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "category": 1,
+            "title": "This is a test",
+            "publication_date": "2022-01-04",
+            "image_url": "https://www.dog-breeds-expert.com/images/German-Shorthaired-Pointer-1.jpg",
+            "content": "This is where the content goes.",
+            "approved": 1
+        }
+    },
+    {
+        "model": "rareapi.post",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "category": 1,
+            "title": "This is a test",
+            "publication_date": "2022-02-04",
+            "image_url": "https://vetstreet-brightspot.s3.amazonaws.com/48/bff310c82111e09b940050568d6ceb/file/Pointer-2-AP-645km081611.jpg",
+            "content": "This is where the content goes.",
+            "approved": 1
+        }
+    },
+    {
+        "model": "rareapi.post",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "category": 1,
+            "title": "This is a test",
+            "publication_date": "2022-03-04",
+            "image_url": "https://www.akc.org/wp-content/uploads/2021/03/German-Shorthaired-Pointer-puppy-walking-through-a-grassy-field..jpg",
+            "content": "This is where the content goes.",
+            "approved": 1
+        }
+    },
+    {
+        "model": "rareapi.post",
+        "pk": 4,
+        "fields": {
+            "user": 2,
+            "category": 1,
+            "title": "This is a test",
+            "publication_date": "2022-03-04",
+            "image_url": "https://tythedogguy.com/wp-content/uploads/2015/02/pointer.jpg",
+            "content": "This is where the content goes.",
+            "approved": 1
+        }
+    },
+    {
+        "model": "rareapi.post",
+        "pk": 5,
+        "fields": {
+            "user": 3,
+            "category": 1,
+            "title": "This is a test for Auntie Anne",
+            "publication_date": "2022-03-04",
+            "image_url": "https://mallmaverick.imgix.net/web/property_managers/42/properties/56/all/20210610204733/auntieannes-890x614.png",
+            "content": "This is where the content goes.",
+            "approved": 1
+        }
+    }
+]

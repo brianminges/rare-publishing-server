@@ -1,0 +1,11 @@
+ [
+    {
+        "model": "rareapi.demotion",
+        "pk": 1,
+        "fields": {
+            "action": "Lorem ipsum",
+            "admin": 1,
+            "approver": 1
+        }
+    }
+ ]

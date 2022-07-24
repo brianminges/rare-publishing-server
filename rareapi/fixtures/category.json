@@ -1,0 +1,23 @@
+[
+    {
+        "model": "rareapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "Dogs"
+        }
+    },
+    {
+        "model": "rareapi.category",
+        "pk": 2,
+        "fields": {
+            "label": "Cats"
+        }
+    },
+    {
+        "model": "rareapi.category",
+        "pk": 3,
+        "fields": {
+            "label": "Lizards"
+        }
+    }
+]

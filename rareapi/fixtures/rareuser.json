@@ -1,0 +1,38 @@
+[
+    {
+        "model": "rareapi.rareuser",
+        "pk": 1,
+        "fields": {
+            "bio": "Hi. It's Carrie. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "profile_image_url": "https://cdn2.vectorstock.com/i/1000x1000/23/16/cartoon-woman-business-manager-occupation-vector-12652316.jpg",
+            "user": 1 
+        }
+    },
+    {
+        "model": "rareapi.rareuser",
+        "pk": 2,
+        "fields": {
+            "bio": "Hi. It's John. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "profile_image_url": "",
+            "user": 2 
+        }
+    },
+    {
+        "model": "rareapi.rareuser",
+        "pk": 3,
+        "fields": {
+            "bio": "Hi. It's Ann. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "profile_image_url": "https://cdn2.vectorstock.com/i/1000x1000/23/16/cartoon-woman-business-manager-occupation-vector-12652316.jpg",
+            "user": 3 
+        }
+    },
+    {
+        "model": "rareapi.rareuser",
+        "pk": 4,
+        "fields": {
+            "bio": "Hi. It's Jane. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "profile_image_url": "https://cdn2.vectorstock.com/i/1000x1000/23/16/cartoon-woman-business-manager-occupation-vector-12652316.jpg",
+            "user": 4 
+        }
+    }
+]
