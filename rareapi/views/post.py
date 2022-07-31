@@ -1,11 +1,11 @@
 """View module for handling requests about posts"""
-from cProfile import label
-from unicodedata import category
-from rareapi.models.category import Category
-from urllib.request import url2pathname
-from wsgiref.util import request_uri
-from django import urls
-from django.forms import URLField
+# from cProfile import label
+# from unicodedata import category
+# from rareapi.models.category import Category
+# from urllib.request import url2pathname
+# from wsgiref.util import request_uri
+# from django import urls
+# from django.forms import URLField
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
@@ -41,7 +41,9 @@ class PostView(ViewSet):
         category = request.query_params.get('category', None)
         if category is not None:
             posts = posts.filter(category_id=category)
-            
+        user = request.query_params.get('user', None)
+        if user is not None:
+            posts = posts.filter(user_id=user)    
         serializer = PostSerializer(posts, many=True)
         return Response(serializer.data)
     
