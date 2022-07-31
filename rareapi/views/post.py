@@ -13,6 +13,7 @@ from rest_framework.decorators import action
 from django.core.exceptions import ValidationError
 from rareapi.models import Post, RareUser, Comment, Subscription
 from rareapi.views.comment import CommentSerializer
+from django.db.models import Q
 
 class PostView(ViewSet):
     """Rare posts view"""
@@ -43,7 +44,12 @@ class PostView(ViewSet):
             posts = posts.filter(category_id=category)
         user = request.query_params.get('user', None)
         if user is not None:
-            posts = posts.filter(user_id=user)    
+            posts = posts.filter(user_id=user)
+        search_title = self.request.query_params.get('q', None)
+        if search_title is not None:
+            posts = Post.objects.filter(
+                Q(title__contains=search_title)
+            )
         serializer = PostSerializer(posts, many=True)
         return Response(serializer.data)
     
